@@ -22,10 +22,15 @@ ranges: Latin-1
 To contribute to the project contact Alexei Vanyashin at 
 a (at) cyreal.org
 
-There are three .VBF Source files:
-1. Adamina-Regular.vbf (Original Source files with contour overlaps)
-2. Adamina-Regular-OTF.vbf (Merged and optimized PS file)
-3. Adamina-Regular-TTF.vbf (Hinted file with Truetype contours)
+There are three .vfb Source files:
+
+1. Adamina-Regular.vfb Original Source files with contour overlaps
+
+2. Adamina-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Adamina-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
 
 ChangeLog
 
