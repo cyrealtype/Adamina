@@ -34,6 +34,9 @@ There are three .vfb Source files:
 
 ChangeLog
 
+20 January 2016 (v.1.012) (Alexei Vanyashin)
+— Updated to fix GPOS error detected by ot-sanitise
+
 9 September 2011 (v.1.010) (Alexei Vanyashin)
 — Minor design adjustments: reworked /r/ and /s/
 — Fully Hinted

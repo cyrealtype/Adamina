@@ -233,7 +233,7 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.01100158691"/>
+    <fontRevision value="1.012"/>
     <checkSumAdjustment value="0x9b7ee661"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00011001"/>
@@ -796,105 +796,6 @@
     <yPel name="z" value="1"/>
     <yPel name="zero" value="1"/>
   </LTSH>
-
-  <VDMX>
-    <hexdata>
-      00000001 00010101 0101000c 00f808ff
-      0008000a fffd0009 000dfffd 000a000d
-      fffd000b 000ffffc 000c0010 fffc000d
-      0012fffc 000e0012 fffb000f 0014fffb
-      00100016 fffb0011 0017fffb 00120019
-      fffa0013 001afffa 0014001b fffa0015
-      001cfff9 0016001e fff90017 001ffff9
-      00180020 fff90019 0021fff8 001a0023
-      fff8001b 0024fff8 001c0026 fff7001d
-      0027fff7 001e0028 fff7001f 002afff7
-      0020002a fff60021 002cfff6 0022002d
-      fff60023 002ffff5 00240030 fff50025
-      0031fff5 00260032 fff40027 0034fff4
-      00280035 fff40029 0037fff4 002a0038
-      fff3002b 003afff3 002c003b fff3002d
-      003dfff2 002e003f fff2002f 0040fff2
-      00300041 fff20031 0042fff1 00320044
-      fff10033 0045fff1 00340047 fff00035
-      0047fff0 00360049 fff00037 004afff0
-      0038004c ffef0039 004dffef 003a004f
-      ffef003b 004fffee 003c0051 ffee003d
-      0053ffee 003e0054 ffee003f 0056ffed
-      00400056 ffed0041 0058ffed 00420059
-      ffec0043 005bffec 0044005c ffec0045
-      005effeb 0046005e ffeb0047 0060ffeb
-      00480061 ffeb0049 0063ffea 004a0064
-      ffea004b 0065ffea 004c0067 ffe9004d
-      0068ffe9 004e006a ffe9004f 006bffe9
-      0050006d ffe80051 006dffe8 0052006f
-      ffe80053 0070ffe7 00540072 ffe70055
-      0073ffe7 00560074 ffe70057 0075ffe6
-      00580077 ffe60059 0078ffe6 005a007a
-      ffe5005b 007cffe5 005c007c ffe5005d
-      007effe5 005e007f ffe4005f 0081ffe4
-      00600082 ffe40061 0083ffe3 00620084
-      ffe30063 0086ffe3 00640087 ffe30065
-      0089ffe2 0066008a ffe20067 008bffe2
-      0068008c ffe10069 008effe1 006a008f
-      ffe1006b 0091ffe0 006c0092 ffe0006d
-      0093ffe0 006e0095 ffe0006f 0096ffdf
-      00700098 ffdf0071 0099ffdf 0072009a
-      ffde0073 009bffde 0074009d ffde0075
-      009effde 007600a0 ffdd0077 00a0ffdd
-      007800a2 ffdd0079 00a3ffdc 007a00a5
-      ffdc007b 00a7ffdc 007c00a8 ffdc007d
-      00a9ffdb 007e00aa ffdb007f 00acffdb
-      008000ad ffda0081 00afffda 008200af
-      ffda0083 00b1ffda 008400b2 ffd90085
-      00b4ffd9 008600b5 ffd90087 00b7ffd8
-      008800b7 ffd80089 00b9ffd8 008a00bb
-      ffd7008b 00bcffd7 008c00be ffd7008d
-      00beffd7 008e00c0 ffd6008f 00c1ffd6
-      009000c3 ffd60091 00c4ffd5 009200c6
-      ffd50093 00c6ffd5 009400c8 ffd50095
-      00c9ffd4 009600cb ffd40097 00ccffd4
-      009800cd ffd30099 00cfffd3 009a00d0
-      ffd3009b 00d2ffd3 009c00d3 ffd2009d
-      00d5ffd2 009e00d5 ffd2009f 00d7ffd1
-      00a000d8 ffd100a1 00daffd1 00a200db
-      ffd100a3 00ddffd0 00a400dd ffd000a5
-      00dfffd0 00a600e0 ffcf00a7 00e2ffcf
-      00a800e4 ffcf00a9 00e4ffce 00aa00e6
-      ffce00ab 00e7ffce 00ac00e9 ffce00ad
-      00eaffcd 00ae00ec ffcd00af 00ecffcd
-      00b000ee ffcc00b1 00efffcc 00b200f1
-      ffcc00b3 00f2ffcc 00b400f3 ffcb00b5
-      00f4ffcb 00b600f6 ffcb00b7 00f8ffca
-      00b800f9 ffca00b9 00fbffca 00ba00fb
-      ffca00bb 00fdffc9 00bc00fe ffc900bd
-      0100ffc9 00be0101 ffc800bf 0102ffc8
-      00c00103 ffc800c1 0105ffc8 00c20106
-      ffc700c3 0108ffc7 00c40109 ffc700c5
-      010affc6 00c6010c ffc600c7 010dffc6
-      00c8010f ffc600c9 0110ffc5 00ca0111
-      ffc500cb 0112ffc5 00cc0114 ffc400cd
-      0115ffc4 00ce0117 ffc400cf 0118ffc3
-      00d00119 ffc300d1 011affc3 00d2011c
-      ffc300d3 011dffc2 00d4011f ffc200d5
-      0120ffc2 00d60121 ffc100d7 0123ffc1
-      00d80124 ffc100d9 0126ffc1 00da0127
-      ffc000db 0128ffc0 00dc0129 ffc000dd
-      012bffbf 00de012c ffbf00df 012effbf
-      00e0012e ffbf00e1 0130ffbe 00e20131
-      ffbe00e3 0133ffbe 00e40135 ffbd00e5
-      0136ffbd 00e60137 ffbd00e7 0138ffbd
-      00e8013a ffbc00e9 013bffbc 00ea013d
-      ffbc00eb 013dffbb 00ec013f ffbb00ed
-      0140ffbb 00ee0142 ffba00ef 0143ffba
-      00f00145 ffba00f1 0145ffba 00f20147
-      ffb900f3 0149ffb9 00f4014a ffb900f5
-      014cffb8 00f6014c ffb800f7 014effb8
-      00f8014f ffb800f9 0151ffb7 00fa0152
-      ffb700fb 0154ffb7 00fc0154 ffb600fd
-      0156ffb6 00fe0157 ffb600ff 0159ffb6
-    </hexdata>
-  </VDMX>
 
   <hdmx>
     <hdmxData>
@@ -31171,56 +31072,8 @@
   </kern>
 
   <name>
-    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0">
-      Copyright (c) 2011, Cyreal (www.cyreal.org)&#13;with Reserved Font Name "Adamina" and "Adamina Regular".&#13;&#13;This Font Software is licensed under the SIL Open Font License,&#13;Version 1.1. This license is available with a FAQ at:&#13;http://scripts.sil.org/OFL
-    </namerecord>
-    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0">
-      Adamina
-    </namerecord>
-    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0">
-      Regular
-    </namerecord>
-    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0">
-      Cyreal(www.cyreal.org): Adamina: 2011
-    </namerecord>
-    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0">
-      Adamina
-    </namerecord>
-    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0">
-      Version 1.011
-    </namerecord>
-    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0">
-      Adamina-Regular
-    </namerecord>
-    <namerecord nameID="7" platformID="1" platEncID="0" langID="0x0">
-      Adamina is a trademark of Cyreal (www.cyreal.org).
-    </namerecord>
-    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0">
-      Cyreal (www.cyreal.org)
-    </namerecord>
-    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0">
-      Cyreal (www.cyreal.org)
-    </namerecord>
-    <namerecord nameID="10" platformID="1" platEncID="0" langID="0x0">
-      Adamina is designed by Alexei Vanyashin for Cyreal.&#13;&#13;This Font Software is licensed under the SIL Open Font License, Version 1.1. 
-    </namerecord>
-    <namerecord nameID="11" platformID="1" platEncID="0" langID="0x0">
-      http://cyreal.org
-    </namerecord>
-    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0">
-      http://cyreal.org
-    </namerecord>
-    <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0">
-      Copyright (c) 2011, Cyreal (www.cyreal.org)&#13;with Reserved Font Name "Adamina" and "Adamina Regular".&#13;&#13;This Font Software is licensed under the SIL Open Font License,&#13;Version 1.1. This license is available with a FAQ at:&#13;http://scripts.sil.org/OFL
-    </namerecord>
-    <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0">
-      http://scripts.sil.org/OFL
-    </namerecord>
-    <namerecord nameID="18" platformID="1" platEncID="0" langID="0x0">
-      Adamina
-    </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Copyright (c) 2011, Cyreal (www.cyreal.org)&#13;with Reserved Font Name "Adamina" and "Adamina Regular".&#13;&#13;This Font Software is licensed under the SIL Open Font License,&#13;Version 1.1. This license is available with a FAQ at:&#13;http://scripts.sil.org/OFL
+      Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name 'Adamina'
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
       Adamina
@@ -31235,7 +31088,7 @@
       Adamina
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.011
+      Version 1.012
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Adamina-Regular
@@ -31244,13 +31097,10 @@
       Adamina is a trademark of Cyreal (www.cyreal.org).
     </namerecord>
     <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
-      Cyreal (www.cyreal.org)
+      Alexei Vanyashin
     </namerecord>
     <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
       Cyreal (www.cyreal.org)
-    </namerecord>
-    <namerecord nameID="10" platformID="3" platEncID="1" langID="0x409">
-      Adamina is designed by Alexei Vanyashin for Cyreal.&#13;&#13;This Font Software is licensed under the SIL Open Font License, Version 1.1. 
     </namerecord>
     <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
       http://cyreal.org
@@ -31259,7 +31109,7 @@
       http://cyreal.org
     </namerecord>
     <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
-      Copyright (c) 2011, Cyreal (www.cyreal.org)&#13;with Reserved Font Name "Adamina" and "Adamina Regular".&#13;&#13;This Font Software is licensed under the SIL Open Font License,&#13;Version 1.1. This license is available with a FAQ at:&#13;http://scripts.sil.org/OFL
+      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
       http://scripts.sil.org/OFL
