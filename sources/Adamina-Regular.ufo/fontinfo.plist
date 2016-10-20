@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Use Line Breaks</key>
+	<true/>
+	<key>Use Typo Metrics</key>
+	<true/>
+	<key>ascender</key>
+	<integer>816</integer>
+	<key>capHeight</key>
+	<integer>795</integer>
+	<key>copyright</key>
+	<string>Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Adamina"</string>
+	<key>descender</key>
+	<integer>-290</integer>
+	<key>familyName</key>
+	<string>Adamina</string>
+	<key>license</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<key>licenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeHeadCreated</key>
+	<string>2011/08/24 21:05:45</string>
+	<key>openTypeHheaAscender</key>
+	<integer>916</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-273</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Cyreal (www.cyreal.org)</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://cyreal.org</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Cyreal (www.cyreal.org)</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://cyreal.org</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>Adamina</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
+	<key>openTypeOS2Type</key>
+	<array>
+	</array>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>916</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-273</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>CYRE</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1072</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>290</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-21</integer>
+		<integer>0</integer>
+		<integer>538</integer>
+		<integer>555</integer>
+		<integer>795</integer>
+		<integer>816</integer>
+		<integer>817</integer>
+		<integer>832</integer>
+	</array>
+	<key>postscriptFontName</key>
+	<string>Adamina-Regular</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-306</integer>
+		<integer>-290</integer>
+	</array>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>trademark</key>
+	<string>Adamina is a trademark of Cyreal (www.cyreal.org).</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>11</integer>
+	<key>xHeight</key>
+	<integer>538</integer>
+</dict>
+</plist>

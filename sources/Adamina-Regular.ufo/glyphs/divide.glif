@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="1">
+  <advance width="619"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="555" y="365" type="line"/>
+      <point x="560" y="382"/>
+      <point x="561" y="398"/>
+      <point x="555" y="415" type="curve"/>
+      <point x="64" y="415" type="line"/>
+      <point x="55" y="396"/>
+      <point x="59" y="381"/>
+      <point x="64" y="365" type="curve"/>
+    </contour>
+    <component base="period" xOffset="195" yOffset="154"/>
+    <component base="period" xOffset="195" yOffset="528"/>
+  </outline>
+</glyph>

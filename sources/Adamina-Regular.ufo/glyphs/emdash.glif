@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash" format="1">
+  <advance width="890"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="821" y="357" type="line"/>
+      <point x="826" y="374"/>
+      <point x="827" y="390"/>
+      <point x="821" y="407" type="curve"/>
+      <point x="70" y="407" type="line"/>
+      <point x="61" y="388"/>
+      <point x="65" y="373"/>
+      <point x="70" y="357" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
