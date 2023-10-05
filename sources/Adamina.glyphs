@@ -1,19 +1,14 @@
 {
-.appVersion = "926";
+.appVersion = "3219";
+classes = (
+{
+automatic = 1;
+code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Z";
+name = Uppercase;
+}
+);
 copyright = "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Adamina\"";
 customParameters = (
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "Adamina is a trademark of Cyreal (www.cyreal.org).";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
 {
 name = fsType;
 value = (
@@ -32,15 +27,98 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Adamina is a trademark of Cyreal (www.cyreal.org).";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
 name = vendorID;
 value = CYRE;
 }
 );
-date = "2011-08-25 04:05:45 +0000";
+date = "2023-10-05 15:08:44 +0000";
 designer = "Cyreal (www.cyreal.org)";
 designerURL = "http://cyreal.org";
 disablesAutomaticAlignment = 1;
 familyName = Adamina;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;
+feature frac;
+feature ordn;
+feature case;
+";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@Markscomb = [acute caron circumflex dieresis grave ring tilde];
+	@MarkscombCase = [acute.case caron.case circumflex.case dieresis.case grave.case ring.case tilde.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub acute by acute.case;
+sub caron by caron.case;
+sub circumflex by circumflex.case;
+sub dieresis by dieresis.case;
+sub grave by grave.case;
+sub ring by ring.case;
+sub tilde by tilde.case;
+";
+name = case;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -9890,10 +9968,12 @@ layers = (
 hints = (
 {
 place = "{128, -67}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-173, 104}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -10005,13 +10085,16 @@ position = "{198, 537}";
 hints = (
 {
 place = "{232, 131}";
+type = Stem;
 },
 {
 place = "{43, 126}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{606, 125}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10125,17 +10208,21 @@ position = "{129, 537}";
 hints = (
 {
 place = "{20, 44}";
+type = Stem;
 },
 {
 place = "{194, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{562, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{736, 44}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10194,10 +10281,12 @@ hints = (
 {
 horizontal = 1;
 place = "{600, 69}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{654, 69}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10356,13 +10445,16 @@ position = "{186, 737}";
 hints = (
 {
 place = "{20, 130}";
+type = Stem;
 },
 {
 place = "{234, 131}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{761, 131}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10449,17 +10541,21 @@ position = "{126, 737}";
 hints = (
 {
 place = "{17, 54}";
+type = Stem;
 },
 {
 place = "{181, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{752, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{916, 54}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10517,10 +10613,12 @@ hints = (
 {
 horizontal = 1;
 place = "{777, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{834, 80}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10682,12 +10780,12 @@ AE = -8;
 ampersand = -9;
 bracketright = -15;
 d = -22;
-idotless = -14;
 eth = -21;
 f = -16;
 g = -21;
 germandbls = -20;
 iacute = -14;
+idotless = -14;
 p = -17;
 q = -23;
 s = -22;
@@ -10734,12 +10832,12 @@ AE = -31;
 ampersand = -8;
 bracketright = -18;
 d = -21;
-idotless = -13;
 eth = -21;
 f = -16;
 g = -20;
 germandbls = -21;
 iacute = -13;
+idotless = -13;
 p = -11;
 q = -21;
 s = -21;
@@ -10772,7 +10870,6 @@ at = -35;
 backslash = 42;
 braceright = 44;
 d = -107;
-idotless = -76;
 eth = -23;
 f = -29;
 four = -48;
@@ -10780,6 +10877,7 @@ g = -92;
 germandbls = -36;
 iacute = -36;
 idieresis = 20;
+idotless = -76;
 igrave = 35;
 l = 38;
 p = -75;
@@ -11138,7 +11236,6 @@ AE = -82;
 ampersand = -10;
 bracketright = -12;
 d = -53;
-idotless = -11;
 eth = -39;
 f = -8;
 four = -22;
@@ -11146,6 +11243,7 @@ g = -40;
 germandbls = -11;
 icircumflex = 10;
 idieresis = 19;
+idotless = -11;
 p = -7;
 q = -52;
 s = -42;
@@ -11186,12 +11284,12 @@ J = {
 AE = -8;
 ampersand = -8;
 d = -22;
-idotless = -14;
 eth = -20;
 f = -16;
 g = -20;
 germandbls = -19;
 iacute = -13;
+idotless = -14;
 p = -17;
 q = -22;
 s = -21;
@@ -11310,7 +11408,6 @@ ampersand = -12;
 at = -10;
 bracketright = -11;
 d = -96;
-idotless = -47;
 eth = -48;
 f = -15;
 four = -37;
@@ -11319,6 +11416,7 @@ germandbls = -14;
 iacute = -18;
 icircumflex = 12;
 idieresis = 21;
+idotless = -47;
 p = -45;
 q = -97;
 s = -73;
@@ -11372,7 +11470,6 @@ at = -29;
 backslash = 31;
 braceright = 32;
 d = -80;
-idotless = -45;
 eth = -29;
 f = -31;
 four = -37;
@@ -11380,6 +11477,7 @@ g = -73;
 germandbls = -40;
 iacute = -36;
 idieresis = 7;
+idotless = -45;
 igrave = 23;
 l = 26;
 p = -43;
@@ -11418,7 +11516,6 @@ at = -26;
 backslash = 33;
 braceright = 31;
 d = -70;
-idotless = -42;
 eth = -28;
 f = -27;
 four = -33;
@@ -11426,6 +11523,7 @@ g = -64;
 germandbls = -36;
 iacute = -30;
 idieresis = 9;
+idotless = -42;
 igrave = 25;
 l = 26;
 p = -41;
@@ -11912,10 +12010,9 @@ question = -13;
 };
 };
 };
-keyboardIncrement = 0;
 manufacturer = "Cyreal (www.cyreal.org)";
 manufacturerURL = "http://cyreal.org";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 11;
+versionMinor = 12;
 }
